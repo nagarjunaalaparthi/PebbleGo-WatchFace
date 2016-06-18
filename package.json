@@ -1,0 +1,33 @@
+{
+    "author": "Pebble",
+    "dependencies": {},
+    "keywords": [],
+    "name": "health-steps-remote",
+    "pebble": {
+        "capabilities": [
+            "health"
+        ],
+        "displayName": "Health Steps Remote",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "AppKeyData": 1,
+            "AppKeyIndex": 0,
+            "AppKeyJSReady": 3,
+            "AppKeyNumDataItems": 2
+        },
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "CB3B214B-C7F4-4C71-A570-A0C67B2CBD3A",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
